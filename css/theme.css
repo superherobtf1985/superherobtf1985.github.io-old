@@ -77,10 +77,11 @@ b, strong, label, th {
     -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-#grav-logo {
+#chick-logo {
     max-width: 60%;
+    border-radius: 50%;
 }
-#grav-logo path {
+#chick-logo path {
     fill: #fff !important;
 }
 #sidebar {
@@ -102,10 +103,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     box-shadow: inset 0 1px 3px rgba(0,0,0,.06),0 0 5px rgba(0,169,218,.7)
 }
 #header-wrapper {
-    background: #8451a1;
+    background: lemonchiffon;
     color: #fff;
     text-align: center;
-    border-bottom: 4px solid #9c6fb6;
+    border-bottom: 4px solid #ff9800;
     padding: 1rem;
 }
 #header a {
@@ -121,18 +122,18 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 .searchbox {
     margin-top: 1rem;
     position: relative;
-    border: 1px solid #915eae;
-    background: #764890;
+    border: 1px solid silver;
+    background: silver;
     border-radius: 4px;
 }
 .searchbox label {
-    color: rgba(255, 255, 255, 0.8);
+    color: black;
     position: absolute;
     left: 10px;
     top: 3px;
 }
 .searchbox span {
-    color: rgba(255, 255, 255, 0.6);
+    color: black;
     position: absolute;
     right: 10px;
     top: 3px;
@@ -143,7 +144,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 .searchbox input {
     display: inline-block;
-    color: #fff;
+    color: black;
     width: 100%;
     height: 30px;
     background: transparent;
@@ -173,7 +174,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #sidebar {
-    background-color: #322A38;
+    background-color: lemonchiffon;
     position: fixed;
     top: 0;
     width: 300px;
@@ -183,10 +184,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     font-size: 15px;
 }
 #sidebar a {
-    color: #ccc;
+    color: black;
 }
 #sidebar a:hover {
-    color: #e6e6e6;
+    color: #2196f3;
 }
 #sidebar a.subtitle {
     color: rgba(204, 204, 204, 0.6);
@@ -276,15 +277,15 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-top: 9px;
 }
 #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
-    background: #251f29;
+    background: lemonchiffon;
     margin-left: -1rem;
     margin-right: -1rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 #sidebar ul li.active > a {
-    background: #fff;
-    color: #777 !important;
+    background: #ff9800;
+    color: black !important;
     margin-left: -1rem;
     margin-right: -1rem;
     padding-left: 1rem;
@@ -1128,10 +1129,10 @@ pre .copy-to-clipboard:hover {
 }
 
 #homelinks {
-  background-color: #9c6fb6;
+  background-color: #ff9800;
   color: #fff;
   padding: 7px 0;
-  border-bottom: 4px solid #9c6fb6;
+  border-bottom: 4px solid #ff9800;
 }
 
 #searchResults {
