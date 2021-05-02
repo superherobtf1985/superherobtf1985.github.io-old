@@ -2,20 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2021-05-01T02:45:35+00:00</lastmod>
+  </url><url>
     <loc>/posts/</loc>
     <lastmod>2021-05-01T02:45:35+00:00</lastmod>
   </url><url>
-    <loc>/posts/sample/</loc>
+    <loc>/tags/</loc>
     <lastmod>2021-05-01T02:45:35+00:00</lastmod>
   </url><url>
     <loc>/</loc>
     <lastmod>2021-05-01T02:45:35+00:00</lastmod>
   </url><url>
+    <loc>/tags/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB/</loc>
+    <lastmod>2021-05-01T02:45:35+00:00</lastmod>
+  </url><url>
+    <loc>/categories/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB/</loc>
+    <lastmod>2021-05-01T02:45:35+00:00</lastmod>
+  </url><url>
+    <loc>/tags/%E5%81%A5%E5%BA%B7%E7%9A%84%E3%81%AA%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2021-05-01T02:45:35+00:00</lastmod>
+  </url><url>
+    <loc>/posts/sample/</loc>
+    <lastmod>2021-05-01T02:45:35+00:00</lastmod>
+  </url><url>
+    <loc>/categories/%E7%9B%AE%E6%AC%A1%E4%BB%98%E4%B8%8E/</loc>
+    <lastmod>2021-05-01T02:45:35+00:00</lastmod>
+  </url><url>
     <loc>/posts/my-first-post/</loc>
     <lastmod>2021-05-01T01:19:41+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-  </url><url>
-    <loc>/tags/</loc>
   </url>
 </urlset>

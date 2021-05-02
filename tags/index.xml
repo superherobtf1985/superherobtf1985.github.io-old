@@ -5,6 +5,25 @@
     <link>/tags/</link>
     <description>Recent content in Tags on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language>
+    <lastBuildDate>Sat, 01 May 2021 02:45:35 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>サンプル</title>
+      <link>/tags/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB/</link>
+      <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
+      
+      <guid>/tags/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>健康的な生活</title>
+      <link>/tags/%E5%81%A5%E5%BA%B7%E7%9A%84%E3%81%AA%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
+      
+      <guid>/tags/%E5%81%A5%E5%BA%B7%E7%9A%84%E3%81%AA%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

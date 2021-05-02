@@ -5,6 +5,25 @@
     <link>/categories/</link>
     <description>Recent content in Categories on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language>
+    <lastBuildDate>Sat, 01 May 2021 02:45:35 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>サンプル</title>
+      <link>/categories/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB/</link>
+      <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
+      
+      <guid>/categories/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>目次付与</title>
+      <link>/categories/%E7%9B%AE%E6%AC%A1%E4%BB%98%E4%B8%8E/</link>
+      <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
+      
+      <guid>/categories/%E7%9B%AE%E6%AC%A1%E4%BB%98%E4%B8%8E/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
