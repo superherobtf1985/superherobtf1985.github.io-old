@@ -39,7 +39,8 @@
     src: url("../fonts/Work_Sans_500.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans_500.woff") format("woff"), url("../fonts/Work_Sans_500.woff2") format("woff2"), url("../fonts/Work_Sans_500.svg#WorkSans") format("svg"), url("../fonts/Work_Sans_500.ttf") format("truetype");
 }
 body {
-    background: #fff;
+    background: #fffff0;
+    min-height: 100vh;
     color: #777;
 }
 body #chapter h1 {
@@ -440,6 +441,15 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     text-align: center;
     font-size: 1.2rem;
 }
+
+#body-inner-toc {
+    border: solid 1px #e5d3d1;
+    padding: 1rem 1rem;
+}
+#body-inner-toc h2 {
+    margin: 0;
+}
+
 #footer {
     padding: 3rem 1rem;
     color: #b3b3b3;
@@ -903,7 +913,7 @@ td {
     border-right-color: rgba(0, 0, 0, 0.8);
 }
 .highlightable {
-    padding: 1rem 0 1rem;
+    padding: 0.3rem 0 1rem;
     overflow: auto;
     position: relative;
 }
