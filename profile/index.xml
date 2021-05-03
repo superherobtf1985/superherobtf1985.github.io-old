@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>はじめてブログ</title>
-    <link>/</link>
-    <description>Recent content on はじめてブログ</description>
+    <title>サイト情報 on はじめてブログ</title>
+    <link>/profile/</link>
+    <description>Recent content in サイト情報 on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 02 May 2021 07:11:17 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>コードブロック</title>
-      <link>/hugo/code-highlight/</link>
-      <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
-      
-      <guid>/hugo/code-highlight/</guid>
-      <description>Hugoのコードハイライト コードハイライトはHugoのhighlightショートコードを使って記載できる。
- {{&amp;lt; highlight 言語 &amp;gt;}}で出力 オプション   linenos
-行番号を設定できるようになる(true, false, inline, table)
-Learnテーマではコピーアンドペースト機能がついているため、inlineを指定
-  linenostart
-行番号の開始番号を指定
-  hl_lines
-強調表示する行番号を指定
-空白区切りで複数箇所選択可能
-2-4は2~4行目というように複数行指定も可能
-    実行例 {{&amp;lt; highlight java &amp;quot;linenos=inline,linenostart=3,hl_lines=2&amp;quot; &amp;gt;}} public static void main(String[] args) { System.out.println(&amp;quot;Hello World!&amp;quot;); } {{&amp;lt; / highlight &amp;gt;}} 3public static void main(String[] args) { 4 System.out.println(&amp;#34;Hello World!&amp;#34;); 5} </description>
-    </item>
-    
+    <lastBuildDate>Sun, 02 May 2021 07:11:17 +0000</lastBuildDate><atom:link href="/profile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>このサイトについて</title>
       <link>/profile/about-site/</link>
@@ -50,17 +31,6 @@ Learnテーマではコピーアンドペースト機能がついているため
       <guid>/profile/about-me/</guid>
       <description>自己紹介  shunT SIer勤務 東京の某国立大学の情報学部を卒業 趣味は野球観戦（読売ジャイアンツファン） 最近ワインのおいしさに気づく  経験  ベンチャー企業で少しだけインターンシップしてPHPとか書いたり 某プログラミングスクールのメンターしたり アジャイル開発したり Java開発したり WordPressでサイト運営したり  資格  基本情報技術者 応用情報技術者 AWS Certified Solutions Architect - Associate
 資格も今後もう少し積極的に受けたいですね。。  </description>
-    </item>
-    
-    <item>
-      <title>健康的な生活を送る方法</title>
-      <link>/posts/sample/sample/</link>
-      <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
-      
-      <guid>/posts/sample/sample/</guid>
-      <description>朝の習慣  朝早く起きる ごはん食べる  早く起きるには？  朝に日光を浴びる  夜の習慣  寝る前にスマホをいじらない 早く寝る  早寝早起き朝ご飯が大切
-睡眠は質が大事
- </description>
     </item>
     
   </channel>

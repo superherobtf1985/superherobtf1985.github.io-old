@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on はじめてブログ</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in Hugo on はじめてブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 01 May 2021 02:45:35 +0000</lastBuildDate><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>コードブロック</title>
+      <link>/hugo/code-highlight/</link>
+      <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
+      
+      <guid>/hugo/code-highlight/</guid>
+      <description>Hugoのコードハイライト コードハイライトはHugoのhighlightショートコードを使って記載できる。
+ {{&amp;lt; highlight 言語 &amp;gt;}}で出力 オプション   linenos
+行番号を設定できるようになる(true, false, inline, table)
+Learnテーマではコピーアンドペースト機能がついているため、inlineを指定
+  linenostart
+行番号の開始番号を指定
+  hl_lines
+強調表示する行番号を指定
+空白区切りで複数箇所選択可能
+2-4は2~4行目というように複数行指定も可能
+    実行例 {{&amp;lt; highlight java &amp;quot;linenos=inline,linenostart=3,hl_lines=2&amp;quot; &amp;gt;}} public static void main(String[] args) { System.out.println(&amp;quot;Hello World!&amp;quot;); } {{&amp;lt; / highlight &amp;gt;}} 3public static void main(String[] args) { 4 System.out.println(&amp;#34;Hello World!&amp;#34;); 5} </description>
+    </item>
+    
+  </channel>
+</rss>

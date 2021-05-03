@@ -10,10 +10,10 @@
 }
 
 #TableOfContents {
-    font-size: 13px !important;
+    font-size: 1.1rem !important;
     max-height: 85vh;
     overflow: auto;
-    padding: 15px 5px !important;
+    /* padding: 15px 5px !important; */
 }
 
 #TableOfContents > ul > li > a {
@@ -21,7 +21,7 @@
 }
 
 body {
-    font-size: 16px !important;
+    font-size: 1.1rem !important;
     color: #323232 !important;
 }
 
@@ -45,9 +45,9 @@ body {
     -ms-transition: width 0.5s ease;
     transition: width 0.5s ease;
 }
-#body a.highlight:hover:after, #body a.highlight:focus:after {
+/* #body a.highlight:hover:after, #body a.highlight:focus:after {
     width: 100%;
-}
+} */
 .progress {
     position:absolute;
     background-color: rgba(246, 246, 246, 0.97);
