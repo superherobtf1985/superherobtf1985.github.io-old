@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>サイト情報 on はじめてブログ</title>
-    <link>/profile/</link>
+    <link>www.hajimeteblog.com/profile/</link>
     <description>Recent content in サイト情報 on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 02 May 2021 07:11:17 +0000</lastBuildDate><atom:link href="/profile/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 May 2021 07:11:17 +0000</lastBuildDate><atom:link href="www.hajimeteblog.com/profile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>このサイトについて</title>
-      <link>/profile/about-site/</link>
+      <link>www.hajimeteblog.com/profile/about-site/</link>
       <pubDate>Sun, 02 May 2021 07:11:17 +0000</pubDate>
       
-      <guid>/profile/about-site/</guid>
+      <guid>www.hajimeteblog.com/profile/about-site/</guid>
       <description>背景 はじめてブログは学生時代に学んだことを管理しようと思い、レンタルサーバーを借りてWordPressで運営していました。
 しかし就業してから思うように時間が取れず、閉鎖しました。
 ただドメインは長らく保持しているので、お金をかけずに学んだことをアウトプットできるものを作ろうと思い、今回のリニューアルに至りました。
@@ -25,10 +25,10 @@
     
     <item>
       <title>プロフィール</title>
-      <link>/profile/about-me/</link>
+      <link>www.hajimeteblog.com/profile/about-me/</link>
       <pubDate>Sun, 02 May 2021 06:53:03 +0000</pubDate>
       
-      <guid>/profile/about-me/</guid>
+      <guid>www.hajimeteblog.com/profile/about-me/</guid>
       <description>自己紹介  shunT SIer勤務 東京の某国立大学の情報学部を卒業 趣味は野球観戦（読売ジャイアンツファン） 最近ワインのおいしさに気づく  経験  ベンチャー企業で少しだけインターンシップしてPHPとか書いたり 某プログラミングスクールのメンターしたり アジャイル開発したり Java開発したり WordPressでサイト運営したり  資格  基本情報技術者 応用情報技術者 AWS Certified Solutions Architect - Associate
 資格も今後もう少し積極的に受けたいですね。。  </description>
     </item>
