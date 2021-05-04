@@ -6,7 +6,7 @@
     <description>Recent content in Hugo on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 01 May 2021 02:45:35 +0000</lastBuildDate><atom:link href="/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 11:05:39 +0000</lastBuildDate><atom:link href="/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>コードブロック</title>
       <link>/hugo/code-highlight/</link>
@@ -24,6 +24,22 @@ Learnテーマではコピーアンドペースト機能がついているため
 空白区切りで複数箇所選択可能
 2-4は2~4行目というように複数行指定も可能
     実行例 {{&amp;lt; highlight java &amp;quot;linenos=inline,linenostart=3,hl_lines=2&amp;quot; &amp;gt;}} public static void main(String[] args) { System.out.println(&amp;quot;Hello World!&amp;quot;); } {{&amp;lt; / highlight &amp;gt;}} 3public static void main(String[] args) { 4 System.out.println(&amp;#34;Hello World!&amp;#34;); 5} </description>
+    </item>
+    
+    <item>
+      <title>環境導入</title>
+      <link>/hugo/install/</link>
+      <pubDate>Mon, 03 May 2021 11:05:39 +0000</pubDate>
+      
+      <guid>/hugo/install/</guid>
+      <description>docker-compose.ymlの作成 Jekyllという静的サイトジェネレータを利用していたが、立ち上げに時間がかかるためHugoに移行。
+今回はローカル環境も汚したくないため、コンテナでさくっと環境を作った。
+klakegg/hugo の現時点で最新のバージョンを利用した。
+1version: &amp;#39;3&amp;#39; 2services: 3 hugo: 4 image: klakegg/hugo:0.82.0-ubuntu 5 volumes: 6 - &amp;#34;.:/src&amp;#34; 7 ports: 8 - &amp;#34;1313:1313&amp;#34; 9 tty: true 10 working_dir: /src コンテナを起動しアタッチ docker-compose upでコンテナを起動。
+起動したコンテナにアタッチしてシェルを起動。
+hugoコマンドの利用 srcフォルダが作成されているので移動し、hugo new プロジェクト名によってサイトのひな形を作成。
+あとはhugo new パス名/ページ名.mdで新規投稿を作成したりCSSいじったりして好きにカスタマイズ。
+とっても簡単にサイトが構築できた。</description>
     </item>
     
   </channel>

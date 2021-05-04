@@ -515,12 +515,25 @@ h1 {
 h2 {
   font-size: 2.55rem;
   padding: 0.5em;
-  background: lemonchiffon;
+  background: #fdeca6;
   border-left: solid 5px #feb471; 
 }
 
 h3 {
-  font-size: 2.15rem; }
+  font-size: 2.15rem;
+  position: relative;
+  padding: 0.5em 0.5em 0.5em 1.5em;
+}
+h3:before {
+  font-family: "Font Awesome 5 Free";/*忘れずに*/
+  content: "\f138";/*アイコンのユニコード*/
+  font-weight: 900;
+  position: absolute;/*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0.25em;/*アイコンの位置*/
+  top: 0.5em;/*アイコンの位置*/
+  color: #feb471; /*アイコン色*/
+}
 
 h4 {
   font-size: 1.8rem; }

@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.82.0" />
-    <meta name="description" content="コードブロックの作り方とhightlightによるコードハイライト記法メモ">
+    <meta name="description" content="">
 
 
     <link rel="icon" href="../../images/favicon.png" type="image/png">
 
-    <title>コードブロック :: はじめてブログ</title>
+    <title>環境構築 :: はじめてブログ</title>
 
     
     <link href="../../css/nucleus.css?1620098829" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="../../hugo/code-highlight/">
+  <body class="" data-url="../../tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/">
     <nav id="sidebar" class="">
 
 
@@ -92,7 +92,7 @@
   
     
     <li data-nav-id="/hugo/" title="Hugo" class="dd-item
-        parent
+        
         
         
         ">
@@ -118,7 +118,7 @@
  
   
     
-      <li data-nav-id="/hugo/code-highlight/" title="コードブロック" class="dd-item active">
+      <li data-nav-id="/hugo/code-highlight/" title="コードブロック" class="dd-item ">
         <a href="../../hugo/code-highlight/">
         コードブロック
         
@@ -395,7 +395,7 @@
             
           
           
-            <a href='../../'>はじめてブログ</a> > <a href='../../hugo/'>Hugo</a> > コードブロック
+            <a href='../../'>はじめてブログ</a> > <a href='../../tags/'>Tags</a> > 環境構築
           
         
           
@@ -408,12 +408,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#hugoのコードハイライト">Hugoのコードハイライト</a></li>
-    <li><a href="#実行例">実行例</a></li>
-  </ul>
-</nav>
+
     </div>
 </div>
 
@@ -423,78 +418,32 @@
             
         <div id="head-tags">
         
-<div class="tags d-inline-block">
-
-  <a class="tag-link" href="../../tags/hugo">Hugo</a>
-
-  <a class="tag-link" href="../../tags/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88">コードハイライト</a>
-
-</div>
-
         </div>
         
         <div id="body-inner">
           
             <h1>
               
-              コードブロック
+                tag ::
+              
+              環境構築
             </h1>
           
 
         
 
 
-<time>投稿日：2021-05-01</time>
-<time>更新日：2021-05-01</time>
 
 
-	<div id="body-inner-toc">
-		<h4>目次</h4>
-		<nav id="TableOfContents">
-  <ul>
-    <li><a href="#hugoのコードハイライト">Hugoのコードハイライト</a></li>
-    <li><a href="#実行例">実行例</a></li>
-  </ul>
-</nav>	
-	</div>
 
-
-<h2 id="hugoのコードハイライト">Hugoのコードハイライト</h2>
-<p>コードハイライトはHugoの<code>highlight</code>ショートコードを使って記載できる。</p>
 <ul>
-<li><code>{{&lt; highlight 言語 &gt;}}</code>で出力</li>
-<li>オプション
-<ul>
-<li>
-<p><code>linenos</code><br>
-行番号を設定できるようになる(true, false, inline, table)<br>
-Learnテーマではコピーアンドペースト機能がついているため、<code>inline</code>を指定</p>
-</li>
-<li>
-<p><code>linenostart</code><br>
-行番号の開始番号を指定</p>
-</li>
-<li>
-<p><code>hl_lines</code><br>
-強調表示する行番号を指定<br>
-空白区切りで複数箇所選択可能<br>
-2-4は2~4行目というように複数行指定も可能</p>
-</li>
+	
+		<li><a href="../../hugo/install/">環境導入</a></li>
+	
 </ul>
-</li>
-</ul>
-<h2 id="実行例">実行例</h2>
-<pre><code>{{&lt; highlight java &quot;linenos=inline,linenostart=3,hl_lines=2&quot; &gt;}}
-public static void main(String[] args) {
-    System.out.println(&quot;Hello World!&quot;);
-}
-{{&lt; / highlight &gt;}}
-</code></pre><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-<span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span>    System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello World!&#34;</span><span style="color:#f92672">);</span>
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span style="color:#f92672">}</span></code></pre></div>
 
 
-<footer class="footline">
+<footer class=" footline" >
 	
 </footer>
 
@@ -529,6 +478,8 @@ public static void main(String[] args) {
             
                 
                     
+                        
+                        
                     
                 
                 
@@ -542,7 +493,6 @@ public static void main(String[] args) {
             
             
                 
-                    
                     
                 
                 
@@ -559,9 +509,6 @@ public static void main(String[] args) {
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -684,10 +631,8 @@ public static void main(String[] args) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="../../hugo/" title="Hugo"> <i class="fa fa-chevron-left"></i></a>
 		
-		
-			<a class="nav nav-next" href="../../hugo/install/" title="環境導入" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="../../hugo/" title="Hugo" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -719,4 +664,3 @@ public static void main(String[] args) {
 
   </body>
 </html>
-

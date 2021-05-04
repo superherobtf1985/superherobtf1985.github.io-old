@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.82.0" />
-    <meta name="description" content="コードブロックの作り方とhightlightによるコードハイライト記法メモ">
+    <meta name="description" content="コンテナに爆速でHugo環境を作る">
 
 
     <link rel="icon" href="../../images/favicon.png" type="image/png">
 
-    <title>コードブロック :: はじめてブログ</title>
+    <title>環境導入 :: はじめてブログ</title>
 
     
     <link href="../../css/nucleus.css?1620098829" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="../../hugo/code-highlight/">
+  <body class="" data-url="../../hugo/install/">
     <nav id="sidebar" class="">
 
 
@@ -118,7 +118,7 @@
  
   
     
-      <li data-nav-id="/hugo/code-highlight/" title="コードブロック" class="dd-item active">
+      <li data-nav-id="/hugo/code-highlight/" title="コードブロック" class="dd-item ">
         <a href="../../hugo/code-highlight/">
         コードブロック
         
@@ -139,7 +139,7 @@
  
   
     
-      <li data-nav-id="/hugo/install/" title="環境導入" class="dd-item ">
+      <li data-nav-id="/hugo/install/" title="環境導入" class="dd-item active">
         <a href="../../hugo/install/">
         環境導入
         
@@ -395,7 +395,7 @@
             
           
           
-            <a href='../../'>はじめてブログ</a> > <a href='../../hugo/'>Hugo</a> > コードブロック
+            <a href='../../'>はじめてブログ</a> > <a href='../../hugo/'>Hugo</a> > 環境導入
           
         
           
@@ -410,8 +410,9 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#hugoのコードハイライト">Hugoのコードハイライト</a></li>
-    <li><a href="#実行例">実行例</a></li>
+    <li><a href="#docker-composeymlの作成">docker-compose.ymlの作成</a></li>
+    <li><a href="#コンテナを起動しアタッチ">コンテナを起動しアタッチ</a></li>
+    <li><a href="#hugoコマンドの利用">hugoコマンドの利用</a></li>
   </ul>
 </nav>
     </div>
@@ -427,7 +428,7 @@
 
   <a class="tag-link" href="../../tags/hugo">Hugo</a>
 
-  <a class="tag-link" href="../../tags/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88">コードハイライト</a>
+  <a class="tag-link" href="../../tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89">環境構築</a>
 
 </div>
 
@@ -437,61 +438,51 @@
           
             <h1>
               
-              コードブロック
+              環境導入
             </h1>
           
 
         
 
 
-<time>投稿日：2021-05-01</time>
-<time>更新日：2021-05-01</time>
+<time>投稿日：2021-05-03</time>
+<time>更新日：2021-05-03</time>
 
 
 	<div id="body-inner-toc">
 		<h4>目次</h4>
 		<nav id="TableOfContents">
   <ul>
-    <li><a href="#hugoのコードハイライト">Hugoのコードハイライト</a></li>
-    <li><a href="#実行例">実行例</a></li>
+    <li><a href="#docker-composeymlの作成">docker-compose.ymlの作成</a></li>
+    <li><a href="#コンテナを起動しアタッチ">コンテナを起動しアタッチ</a></li>
+    <li><a href="#hugoコマンドの利用">hugoコマンドの利用</a></li>
   </ul>
 </nav>	
 	</div>
 
 
-<h2 id="hugoのコードハイライト">Hugoのコードハイライト</h2>
-<p>コードハイライトはHugoの<code>highlight</code>ショートコードを使って記載できる。</p>
-<ul>
-<li><code>{{&lt; highlight 言語 &gt;}}</code>で出力</li>
-<li>オプション
-<ul>
-<li>
-<p><code>linenos</code><br>
-行番号を設定できるようになる(true, false, inline, table)<br>
-Learnテーマではコピーアンドペースト機能がついているため、<code>inline</code>を指定</p>
-</li>
-<li>
-<p><code>linenostart</code><br>
-行番号の開始番号を指定</p>
-</li>
-<li>
-<p><code>hl_lines</code><br>
-強調表示する行番号を指定<br>
-空白区切りで複数箇所選択可能<br>
-2-4は2~4行目というように複数行指定も可能</p>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="実行例">実行例</h2>
-<pre><code>{{&lt; highlight java &quot;linenos=inline,linenostart=3,hl_lines=2&quot; &gt;}}
-public static void main(String[] args) {
-    System.out.println(&quot;Hello World!&quot;);
-}
-{{&lt; / highlight &gt;}}
-</code></pre><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-<span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span>    System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello World!&#34;</span><span style="color:#f92672">);</span>
-</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span style="color:#f92672">}</span></code></pre></div>
+<h2 id="docker-composeymlの作成">docker-compose.ymlの作成</h2>
+<p>Jekyllという静的サイトジェネレータを利用していたが、立ち上げに時間がかかるためHugoに移行。<br>
+今回はローカル環境も汚したくないため、コンテナでさくっと環境を作った。<br>
+<a href="https://hub.docker.com/r/klakegg/hugo" title="klakegg/hugo">klakegg/hugo</a>
+の現時点で最新のバージョンを利用した。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span style="color:#f92672">version</span>: <span style="color:#e6db74">&#39;3&#39;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span style="color:#f92672">services</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span>    <span style="color:#f92672">hugo</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span>        <span style="color:#f92672">image</span>: <span style="color:#ae81ff">klakegg/hugo:0.82.0-ubuntu</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span>        <span style="color:#f92672">volumes</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span>            - <span style="color:#e6db74">&#34;.:/src&#34;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span>        <span style="color:#f92672">ports</span>:
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span>            - <span style="color:#e6db74">&#34;1313:1313&#34;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span>        <span style="color:#f92672">tty</span>: <span style="color:#66d9ef">true</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span>        <span style="color:#f92672">working_dir</span>: <span style="color:#ae81ff">/src</span></code></pre></div>
+<h2 id="コンテナを起動しアタッチ">コンテナを起動しアタッチ</h2>
+<p><code>docker-compose up</code>でコンテナを起動。<br>
+起動したコンテナにアタッチしてシェルを起動。</p>
+<h2 id="hugoコマンドの利用">hugoコマンドの利用</h2>
+<p><code>src</code>フォルダが作成されているので移動し、<code>hugo new プロジェクト名</code>によってサイトのひな形を作成。</p>
+<p>あとは<code>hugo new パス名/ページ名.md</code>で新規投稿を作成したりCSSいじったりして好きにカスタマイズ。<br>
+とっても簡単にサイトが構築できた。</p>
 
 
 <footer class="footline">
@@ -543,23 +534,6 @@ public static void main(String[] args) {
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                         
                         
                     
@@ -574,6 +548,23 @@ public static void main(String[] args) {
             
         
                     
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -581,6 +572,9 @@ public static void main(String[] args) {
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -684,10 +678,10 @@ public static void main(String[] args) {
 	 
 	 
 		
-			<a class="nav nav-prev" href="../../hugo/" title="Hugo"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="../../hugo/code-highlight/" title="コードブロック"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="../../hugo/install/" title="環境導入" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="../../posts/" title="投稿" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
