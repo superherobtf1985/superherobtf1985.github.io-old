@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>tech.hajimeteblog.com/hugo/</loc>
+    <loc>/hugo/</loc>
     <lastmod>2021-05-03T11:05:39+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/hugo/code-highlight/</loc>
+    <loc>/hugo/code-highlight/</loc>
     <lastmod>2021-05-01T02:45:35+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2021-05-01T02:45:35+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/posts/sample/</loc>
+    <loc>/posts/sample/</loc>
     <lastmod>2021-05-01T02:45:35+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/profile/</loc>
+    <loc>/profile/</loc>
     <lastmod>2021-05-02T07:11:17+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/tags/hugo/</loc>
+    <loc>/tags/hugo/</loc>
     <lastmod>2021-05-03T11:05:39+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2021-05-03T11:05:39+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/</loc>
+    <loc>/</loc>
     <lastmod>2021-05-03T11:05:39+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/hugo/install/</loc>
+    <loc>/hugo/install/</loc>
     <lastmod>2021-05-03T11:05:39+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</loc>
+    <loc>/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</loc>
     <lastmod>2021-05-03T11:05:39+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/profile/about-site/</loc>
+    <loc>/profile/about-site/</loc>
     <lastmod>2021-05-02T07:11:17+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/profile/about-me/</loc>
+    <loc>/profile/about-me/</loc>
     <lastmod>2021-05-02T06:53:03+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/tags/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88/</loc>
+    <loc>/tags/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88/</loc>
     <lastmod>2021-05-01T02:45:35+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/tags/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB/</loc>
+    <loc>/tags/%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB/</loc>
     <lastmod>2021-05-01T02:45:35+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/tags/%E5%81%A5%E5%BA%B7%E7%9A%84%E3%81%AA%E7%94%9F%E6%B4%BB/</loc>
+    <loc>/tags/%E5%81%A5%E5%BA%B7%E7%9A%84%E3%81%AA%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2021-05-01T02:45:35+00:00</lastmod>
   </url><url>
-    <loc>tech.hajimeteblog.com/posts/sample/sample/</loc>
+    <loc>/posts/sample/sample/</loc>
     <lastmod>2021-05-01T02:45:35+00:00</lastmod>
   </url>
 </urlset>

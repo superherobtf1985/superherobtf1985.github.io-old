@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>はじめてブログ</title>
-    <link>tech.hajimeteblog.com/</link>
+    <link>/</link>
     <description>Recent content on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 03 May 2021 11:05:39 +0000</lastBuildDate><atom:link href="tech.hajimeteblog.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 11:05:39 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>コードブロック</title>
-      <link>tech.hajimeteblog.com/hugo/code-highlight/</link>
+      <link>/hugo/code-highlight/</link>
       <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
       
-      <guid>tech.hajimeteblog.com/hugo/code-highlight/</guid>
+      <guid>/hugo/code-highlight/</guid>
       <description>Hugoのコードハイライト コードハイライトはHugoのhighlightショートコードを使って記載できる。
  {{&amp;lt; highlight 言語 &amp;gt;}}で出力 オプション   linenos
 行番号を設定できるようになる(true, false, inline, table)
@@ -28,10 +28,10 @@ Learnテーマではコピーアンドペースト機能がついているため
     
     <item>
       <title>環境導入</title>
-      <link>tech.hajimeteblog.com/hugo/install/</link>
+      <link>/hugo/install/</link>
       <pubDate>Mon, 03 May 2021 11:05:39 +0000</pubDate>
       
-      <guid>tech.hajimeteblog.com/hugo/install/</guid>
+      <guid>/hugo/install/</guid>
       <description>docker-compose.ymlの作成 Jekyllという静的サイトジェネレータを利用していたが、立ち上げに時間がかかるためHugoに移行。
 今回はローカル環境も汚したくないため、コンテナでさくっと環境を作った。
 klakegg/hugo の現時点で最新のバージョンを利用した。
@@ -44,10 +44,10 @@ hugoコマンドの利用 srcフォルダが作成されているので移動し
     
     <item>
       <title>このサイトについて</title>
-      <link>tech.hajimeteblog.com/profile/about-site/</link>
+      <link>/profile/about-site/</link>
       <pubDate>Sun, 02 May 2021 07:11:17 +0000</pubDate>
       
-      <guid>tech.hajimeteblog.com/profile/about-site/</guid>
+      <guid>/profile/about-site/</guid>
       <description>背景 はじめてブログは学生時代に学んだことを管理しようと思い、レンタルサーバーを借りてWordPressで運営していました。
 しかし就業してから思うように時間が取れず、閉鎖しました。
 ただドメインは長らく保持しているので、お金をかけずに学んだことをアウトプットできるものを作ろうと思い、今回のリニューアルに至りました。
@@ -60,20 +60,20 @@ hugoコマンドの利用 srcフォルダが作成されているので移動し
     
     <item>
       <title>プロフィール</title>
-      <link>tech.hajimeteblog.com/profile/about-me/</link>
+      <link>/profile/about-me/</link>
       <pubDate>Sun, 02 May 2021 06:53:03 +0000</pubDate>
       
-      <guid>tech.hajimeteblog.com/profile/about-me/</guid>
+      <guid>/profile/about-me/</guid>
       <description>自己紹介  shunT SIer勤務 東京の某国立大学の情報学部を卒業 趣味は野球観戦（読売ジャイアンツファン） 最近ワインのおいしさに気づく  経験  ベンチャー企業で少しだけインターンシップしてPHPとか書いたり 某プログラミングスクールのメンターしたり アジャイル開発したり Java開発したり WordPressでサイト運営したり  資格  基本情報技術者 応用情報技術者 AWS Certified Solutions Architect - Associate
 資格も今後もう少し積極的に受けたいですね。。  </description>
     </item>
     
     <item>
       <title>健康的な生活を送る方法</title>
-      <link>tech.hajimeteblog.com/posts/sample/sample/</link>
+      <link>/posts/sample/sample/</link>
       <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
       
-      <guid>tech.hajimeteblog.com/posts/sample/sample/</guid>
+      <guid>/posts/sample/sample/</guid>
       <description>朝の習慣  朝早く起きる ごはん食べる  早く起きるには？  朝に日光を浴びる  夜の習慣  寝る前にスマホをいじらない 早く寝る  早寝早起き朝ご飯が大切
 睡眠は質が大事
  </description>

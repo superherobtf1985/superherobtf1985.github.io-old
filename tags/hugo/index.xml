@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on はじめてブログ</title>
-    <link>tech.hajimeteblog.com/tags/hugo/</link>
+    <link>/tags/hugo/</link>
     <description>Recent content in Hugo on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 03 May 2021 11:05:39 +0000</lastBuildDate><atom:link href="tech.hajimeteblog.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 11:05:39 +0000</lastBuildDate><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>コードブロック</title>
-      <link>tech.hajimeteblog.com/hugo/code-highlight/</link>
+      <link>/hugo/code-highlight/</link>
       <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
       
-      <guid>tech.hajimeteblog.com/hugo/code-highlight/</guid>
+      <guid>/hugo/code-highlight/</guid>
       <description>Hugoのコードハイライト コードハイライトはHugoのhighlightショートコードを使って記載できる。
  {{&amp;lt; highlight 言語 &amp;gt;}}で出力 オプション   linenos
 行番号を設定できるようになる(true, false, inline, table)
@@ -28,10 +28,10 @@ Learnテーマではコピーアンドペースト機能がついているため
     
     <item>
       <title>環境導入</title>
-      <link>tech.hajimeteblog.com/hugo/install/</link>
+      <link>/hugo/install/</link>
       <pubDate>Mon, 03 May 2021 11:05:39 +0000</pubDate>
       
-      <guid>tech.hajimeteblog.com/hugo/install/</guid>
+      <guid>/hugo/install/</guid>
       <description>docker-compose.ymlの作成 Jekyllという静的サイトジェネレータを利用していたが、立ち上げに時間がかかるためHugoに移行。
 今回はローカル環境も汚したくないため、コンテナでさくっと環境を作った。
 klakegg/hugo の現時点で最新のバージョンを利用した。

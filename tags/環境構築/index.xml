@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>環境構築 on はじめてブログ</title>
-    <link>tech.hajimeteblog.com/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</link>
+    <link>/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</link>
     <description>Recent content in 環境構築 on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 03 May 2021 11:05:39 +0000</lastBuildDate><atom:link href="tech.hajimeteblog.com/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 11:05:39 +0000</lastBuildDate><atom:link href="/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>環境導入</title>
-      <link>tech.hajimeteblog.com/hugo/install/</link>
+      <link>/hugo/install/</link>
       <pubDate>Mon, 03 May 2021 11:05:39 +0000</pubDate>
       
-      <guid>tech.hajimeteblog.com/hugo/install/</guid>
+      <guid>/hugo/install/</guid>
       <description>docker-compose.ymlの作成 Jekyllという静的サイトジェネレータを利用していたが、立ち上げに時間がかかるためHugoに移行。
 今回はローカル環境も汚したくないため、コンテナでさくっと環境を作った。
 klakegg/hugo の現時点で最新のバージョンを利用した。

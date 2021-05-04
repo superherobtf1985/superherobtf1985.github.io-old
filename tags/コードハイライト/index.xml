@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>コードハイライト on はじめてブログ</title>
-    <link>tech.hajimeteblog.com/tags/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88/</link>
+    <link>/tags/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88/</link>
     <description>Recent content in コードハイライト on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 01 May 2021 02:45:35 +0000</lastBuildDate><atom:link href="tech.hajimeteblog.com/tags/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 May 2021 02:45:35 +0000</lastBuildDate><atom:link href="/tags/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%8F%E3%82%A4%E3%83%A9%E3%82%A4%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>コードブロック</title>
-      <link>tech.hajimeteblog.com/hugo/code-highlight/</link>
+      <link>/hugo/code-highlight/</link>
       <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
       
-      <guid>tech.hajimeteblog.com/hugo/code-highlight/</guid>
+      <guid>/hugo/code-highlight/</guid>
       <description>Hugoのコードハイライト コードハイライトはHugoのhighlightショートコードを使って記載できる。
  {{&amp;lt; highlight 言語 &amp;gt;}}で出力 オプション   linenos
 行番号を設定できるようになる(true, false, inline, table)
