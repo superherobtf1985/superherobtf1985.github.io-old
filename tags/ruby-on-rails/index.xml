@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on Rails on はじめてブログ</title>
+    <link>/tags/ruby-on-rails/</link>
+    <description>Recent content in Ruby on Rails on はじめてブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 05 Jun 2021 13:24:09 +0000</lastBuildDate><atom:link href="/tags/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2. 勉強でECサイト作ってみた</title>
+      <link>/portfolio/dicite/</link>
+      <pubDate>Sat, 05 Jun 2021 13:24:09 +0000</pubDate>
+      
+      <guid>/portfolio/dicite/</guid>
+      <description>2人で簡単なECサイト作ってみた 作成時期 2019年夏 1か月程
+背景 インターンの学習の一貫で作成しました。
+2人で作成しましたが、約7割は自身で作成しました。
+環境 Ruby 2.5.5
+Rails 5.2.3
+成果物 簡易ECサイトを作成しました。
+GitHub
+一部GitHub内にも入れましたが、設計も少し行いました。
+ UI Flow WireFrame ER図 テーブル設計 詳細設計など  主な機能  商品のCRUD ユーザー登録、退会 カート追加、削除 いいね、コメント機能 検索機能など  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flask on はじめてブログ</title>
+    <link>/tags/flask/</link>
+    <description>Recent content in Flask on はじめてブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 05 Jun 2021 13:24:09 +0000</lastBuildDate><atom:link href="/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Data Analytics</title>
+      <link>/portfolio/data-analytics/</link>
+      <pubDate>Sat, 05 Jun 2021 13:24:09 +0000</pubDate>
+      
+      <guid>/portfolio/data-analytics/</guid>
+      <description>データ分析をするWEBアプリを作成してみた 作成時期 2020年のGW
+背景 某株式会社さんのインターン選考で作成しました。
+データ分析は初学者でしたが、興味本位で受けてみました。
+テストデータの予測スコアを競う、かつ任意でWEBアプリケーションとして作成するという課題でした。
+成果物 WEBアプリケーションはFlaskを初めて使ってみました。
+選考時はデプロイしていたのですが、もう1年以上経ってしまっているので公開していません。
+代わりに当時ブログに書いた備忘録を移動したnote記事 とGitHubを貼ります。
+noteの記事の最後にGIFを載せていますが、アプリの大まかな操作です。
+ テストファイル（課題で出されていたファイル）をアップロードする 予測データ作成ボタンを押下すると分析が始まる 予測データが作成し終わるとダウンロードボタンが押せるようになる ダウンロードボタンを押下すると予測データファイルがダウンロードされる  結果 残念ながら選考は不合格でした。
+のちに1on1でフィードバックして頂く機会があり、お聞きしたところ合格スコアは超えていたようですが、
+特段優れたものでもないので、時間の多くとれる学生の方が優先して採用されたようです。
+優れている人は社会人でも合格しているので単純に力不足でした。
+しかし、データ分析やFlaskなど未知領域を調べてやってみるという経験ができ、非常にためになりました。</description>
+    </item>
+    
+  </channel>
+</rss>

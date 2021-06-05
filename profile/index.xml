@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>サイト情報 on はじめてブログ</title>
+    <title>1. サイト情報・プロフィール on はじめてブログ</title>
     <link>/profile/</link>
-    <description>Recent content in サイト情報 on はじめてブログ</description>
+    <description>Recent content in 1. サイト情報・プロフィール on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 02 May 2021 07:11:17 +0000</lastBuildDate><atom:link href="/profile/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>このサイトについて</title>
+      <title>1. このサイトについて</title>
       <link>/profile/about-site/</link>
       <pubDate>Sun, 02 May 2021 07:11:17 +0000</pubDate>
       
@@ -24,7 +24,7 @@
     </item>
     
     <item>
-      <title>プロフィール</title>
+      <title>2. プロフィール</title>
       <link>/profile/about-me/</link>
       <pubDate>Sun, 02 May 2021 06:53:03 +0000</pubDate>
       
