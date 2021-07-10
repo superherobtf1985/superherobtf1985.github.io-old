@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3. 学習 on はじめてブログ</title>
+    <link>/learn/</link>
+    <description>Recent content in 3. 学習 on はじめてブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 10 Jul 2021 08:31:21 +0000</lastBuildDate><atom:link href="/learn/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

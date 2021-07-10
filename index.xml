@@ -6,13 +6,22 @@
     <description>Recent content on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 05 Jun 2021 13:24:09 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 08:31:21 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. 便利なEclipseショートカット</title>
+      <link>/learn/java/eclipse-shortcut/</link>
+      <pubDate>Sat, 10 Jul 2021 08:31:21 +0000</pubDate>
+      
+      <guid>/learn/java/eclipse-shortcut/</guid>
+      <description>便利なショートカット集  パッケージの一括インポート：Ctrl + Shift + O 変数リネーム：Shift + Alt + R 宣言を開く：F3（呼び出し階層を開くときは Ctrl + Alt + h コードフォーマッター：Ctrl + Shift + F 複数行コメントアウト：Ctrl + Shift + / タブで開いているファイルを検索：Ctrl + e  </description>
+    </item>
+    
     <item>
       <title>1. コードブロック</title>
-      <link>/hugo/code-highlight/</link>
+      <link>/learn/hugo/code-highlight/</link>
       <pubDate>Sat, 01 May 2021 02:45:35 +0000</pubDate>
       
-      <guid>/hugo/code-highlight/</guid>
+      <guid>/learn/hugo/code-highlight/</guid>
       <description>Hugoのコードハイライト コードハイライトはHugoのhighlightショートコードを使って記載できる。
  {{&amp;lt; highlight 言語 &amp;gt;}}で出力 オプション   linenos
 行番号を設定できるようになる(true, false, inline, table)
@@ -24,6 +33,32 @@ Learnテーマではコピーアンドペースト機能がついているため
 空白区切りで複数箇所選択可能
 2-4は2~4行目というように複数行指定も可能
     実行例 {{&amp;lt; highlight java &amp;quot;linenos=inline,linenostart=3,hl_lines=2&amp;quot; &amp;gt;}} public static void main(String[] args) { System.out.println(&amp;quot;Hello World!&amp;quot;); } {{&amp;lt; / highlight &amp;gt;}} 3public static void main(String[] args) { 4 System.out.println(&amp;#34;Hello World!&amp;#34;); 5} </description>
+    </item>
+    
+    <item>
+      <title>2. 環境導入</title>
+      <link>/learn/hugo/install/</link>
+      <pubDate>Mon, 03 May 2021 11:05:39 +0000</pubDate>
+      
+      <guid>/learn/hugo/install/</guid>
+      <description>docker-compose.ymlの作成 Jekyllという静的サイトジェネレータを利用していたが、立ち上げに時間がかかるためHugoに移行。
+今回はローカル環境も汚したくないため、コンテナでさくっと環境を作った。
+klakegg/hugo の現時点で最新のバージョンを利用した。
+1version: &amp;#39;3&amp;#39; 2services: 3 hugo: 4 image: klakegg/hugo:0.82.0-ubuntu 5 volumes: 6 - &amp;#34;.:/src&amp;#34; 7 ports: 8 - &amp;#34;1313:1313&amp;#34; 9 tty: true 10 working_dir: /src コンテナを起動しアタッチ docker-compose upでコンテナを起動。
+起動したコンテナにアタッチしてシェルを起動。
+hugoコマンドの利用 srcフォルダが作成されているので移動し、hugo new プロジェクト名によってサイトのひな形を作成。
+あとはhugo new パス名/ページ名.mdで新規投稿を作成したりCSSいじったりして好きにカスタマイズ。
+とっても簡単にサイトが構築できた。</description>
+    </item>
+    
+    <item>
+      <title>3. 注意書きブロックの書き方</title>
+      <link>/learn/hugo/notice/</link>
+      <pubDate>Sat, 10 Jul 2021 08:18:20 +0000</pubDate>
+      
+      <guid>/learn/hugo/notice/</guid>
+      <description>Hugoのコードハイライト 詳細
+ {{\% notice warning %}}と {{\% notice %}}で囲むことで、warningをつけることができる（\は不要） 使える属性は以下のもの  note info tip warning    </description>
     </item>
     
     <item>
@@ -65,19 +100,12 @@ GitHub
     </item>
     
     <item>
-      <title>2. 環境導入</title>
-      <link>/hugo/install/</link>
+      <title>基本コマンド</title>
+      <link>/learn/tmux/howtouse/</link>
       <pubDate>Mon, 03 May 2021 11:05:39 +0000</pubDate>
       
-      <guid>/hugo/install/</guid>
-      <description>docker-compose.ymlの作成 Jekyllという静的サイトジェネレータを利用していたが、立ち上げに時間がかかるためHugoに移行。
-今回はローカル環境も汚したくないため、コンテナでさくっと環境を作った。
-klakegg/hugo の現時点で最新のバージョンを利用した。
-1version: &amp;#39;3&amp;#39; 2services: 3 hugo: 4 image: klakegg/hugo:0.82.0-ubuntu 5 volumes: 6 - &amp;#34;.:/src&amp;#34; 7 ports: 8 - &amp;#34;1313:1313&amp;#34; 9 tty: true 10 working_dir: /src コンテナを起動しアタッチ docker-compose upでコンテナを起動。
-起動したコンテナにアタッチしてシェルを起動。
-hugoコマンドの利用 srcフォルダが作成されているので移動し、hugo new プロジェクト名によってサイトのひな形を作成。
-あとはhugo new パス名/ページ名.mdで新規投稿を作成したりCSSいじったりして好きにカスタマイズ。
-とっても簡単にサイトが構築できた。</description>
+      <guid>/learn/tmux/howtouse/</guid>
+      <description>セッション 新規セッションの開始（名前指定） 1$ tmux 2$ tmux new-session -s &amp;lt;name&amp;gt; # 名前付き アタッチ（起動） 1$ tmux attach # 直近のセッションにアタッチする 2$ tmux attach -t 0 デタッチ 1$ prefix + d セッション名の変更 1$ prefix + $ セッションの終了 1$ tmux kill-session -t セッション名 2$ prefix + &amp;amp; # 全てのセッションの終了 ウィンドウ（prefixのデフォルトはCtrl + b） Window操作ショートカット 1$ prefix + w # 一覧表示 2$ prefix + c # 新規Window作成 3 4# Window切り替え 5$ prefix + ウィンドウ番号 6$ prefix + n # 次のWindowへ切り替え 7$ prefix + p # 前のWindowへ切り替え 8 9$ prefix + &amp;amp; # Windowの削除 ペイン分割 1$ prefix + &amp;#34; # 水平分割 2$prefix + % # 垂直分割 3$prefix + o # ペイン間の移動 4$prefix + x # ペインの分割解除 </description>
     </item>
     
     <item>

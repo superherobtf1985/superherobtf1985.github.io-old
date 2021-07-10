@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2. tmux on はじめてブログ</title>
+    <link>/learn/tmux/</link>
+    <description>Recent content in 2. tmux on はじめてブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 03 May 2021 11:05:39 +0000</lastBuildDate><atom:link href="/learn/tmux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基本コマンド</title>
+      <link>/learn/tmux/howtouse/</link>
+      <pubDate>Mon, 03 May 2021 11:05:39 +0000</pubDate>
+      
+      <guid>/learn/tmux/howtouse/</guid>
+      <description>セッション 新規セッションの開始（名前指定） 1$ tmux 2$ tmux new-session -s &amp;lt;name&amp;gt; # 名前付き アタッチ（起動） 1$ tmux attach # 直近のセッションにアタッチする 2$ tmux attach -t 0 デタッチ 1$ prefix + d セッション名の変更 1$ prefix + $ セッションの終了 1$ tmux kill-session -t セッション名 2$ prefix + &amp;amp; # 全てのセッションの終了 ウィンドウ（prefixのデフォルトはCtrl + b） Window操作ショートカット 1$ prefix + w # 一覧表示 2$ prefix + c # 新規Window作成 3 4# Window切り替え 5$ prefix + ウィンドウ番号 6$ prefix + n # 次のWindowへ切り替え 7$ prefix + p # 前のWindowへ切り替え 8 9$ prefix + &amp;amp; # Windowの削除 ペイン分割 1$ prefix + &amp;#34; # 水平分割 2$prefix + % # 垂直分割 3$prefix + o # ペイン間の移動 4$prefix + x # ペインの分割解除 </description>
+    </item>
+    
+  </channel>
+</rss>
