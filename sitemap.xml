@@ -3,10 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/learn/java/</loc>
-    <lastmod>2021-07-10T08:31:21+00:00</lastmod>
-  </url><url>
-    <loc>/learn/java/eclipse-shortcut/</loc>
-    <lastmod>2021-07-10T08:31:21+00:00</lastmod>
+    <lastmod>2021-07-12T06:13:20+00:00</lastmod>
   </url><url>
     <loc>/profile/</loc>
     <lastmod>2021-05-02T07:11:17+00:00</lastmod>
@@ -24,7 +21,7 @@
     <lastmod>2021-05-03T11:05:39+00:00</lastmod>
   </url><url>
     <loc>/learn/</loc>
-    <lastmod>2021-07-10T08:31:21+00:00</lastmod>
+    <lastmod>2021-07-12T06:13:20+00:00</lastmod>
   </url><url>
     <loc>/learn/hugo/</loc>
     <lastmod>2021-07-10T08:18:20+00:00</lastmod>
@@ -32,8 +29,17 @@
     <loc>/learn/hugo/notice/</loc>
     <lastmod>2021-07-10T08:18:20+00:00</lastmod>
   </url><url>
+    <loc>/learn/java/beginners-selection/</loc>
+    <lastmod>2021-07-12T06:13:20+00:00</lastmod>
+  </url><url>
+    <loc>/tags/beginners-selection/</loc>
+    <lastmod>2021-07-12T06:13:20+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-07-12T06:13:20+00:00</lastmod>
+  </url><url>
     <loc>/</loc>
-    <lastmod>2021-07-10T08:31:21+00:00</lastmod>
+    <lastmod>2021-07-12T06:13:20+00:00</lastmod>
   </url><url>
     <loc>/portfolio/data-analytics/</loc>
     <lastmod>2021-06-05T13:24:09+00:00</lastmod>
@@ -45,9 +51,6 @@
     <lastmod>2021-06-05T13:24:09+00:00</lastmod>
   </url><url>
     <loc>/tags/ruby-on-rails/</loc>
-    <lastmod>2021-06-05T13:24:09+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2021-06-05T13:24:09+00:00</lastmod>
   </url><url>
     <loc>/tags/%E3%83%87%E3%83%BC%E3%82%BF%E5%88%86%E6%9E%90/</loc>

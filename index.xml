@@ -6,16 +6,7 @@
     <description>Recent content on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 10 Jul 2021 08:31:21 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>1. 便利なEclipseショートカット</title>
-      <link>/learn/java/eclipse-shortcut/</link>
-      <pubDate>Sat, 10 Jul 2021 08:31:21 +0000</pubDate>
-      
-      <guid>/learn/java/eclipse-shortcut/</guid>
-      <description>便利なショートカット集  パッケージの一括インポート：Ctrl + Shift + O 変数リネーム：Shift + Alt + R 宣言を開く：F3（呼び出し階層を開くときは Ctrl + Alt + h コードフォーマッター：Ctrl + Shift + F 複数行コメントアウト：Ctrl + Shift + / タブで開いているファイルを検索：Ctrl + e  </description>
-    </item>
-    
+    <lastBuildDate>Mon, 12 Jul 2021 06:13:20 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. コードブロック</title>
       <link>/learn/hugo/code-highlight/</link>
@@ -59,6 +50,18 @@ hugoコマンドの利用 srcフォルダが作成されているので移動し
       <guid>/learn/hugo/notice/</guid>
       <description>Hugoのコードハイライト 詳細
  {{\% notice warning %}}と {{\% notice %}}で囲むことで、warningをつけることができる（\は不要） 使える属性は以下のもの  note info tip warning    </description>
+    </item>
+    
+    <item>
+      <title>Beginner Selection</title>
+      <link>/learn/java/beginners-selection/</link>
+      <pubDate>Mon, 12 Jul 2021 06:13:20 +0000</pubDate>
+      
+      <guid>/learn/java/beginners-selection/</guid>
+      <description>コーディングテストを受験してみて、全然できずに悲しくなったのでAtCoderを始めることにした。
+長い目でコツコツやる。
+とりあえず当面はJava。ある程度慣れてきてパフォーマンスを気にするようになったら他言語を検討する。
+第 1 問: ABC 086 A - Product (100 点) 1import java.util.Scanner; 2 3public class Main { 4	public static void main(String[] args) { 5	Scanner sc = new Scanner(System.in); 6	int a = sc.nextInt(); 7	int b = sc.nextInt(); 8 9	if (a * b % 2 == 0) { 10	System.out.println(&amp;#34;Even&amp;#34;); 11	} else { 12	System.out.println(&amp;#34;Odd&amp;#34;); 13	} 14	} 15} 第 2 問: ABC 081 A - Placing Marbles (100 点) 1import java.</description>
     </item>
     
     <item>
