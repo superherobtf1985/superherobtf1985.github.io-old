@@ -6,7 +6,7 @@
     <description>Recent content on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 12 Jul 2021 06:13:20 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jul 2021 06:13:20 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. コードブロック</title>
       <link>/learn/hugo/code-highlight/</link>
@@ -49,7 +49,29 @@ hugoコマンドの利用 srcフォルダが作成されているので移動し
       
       <guid>/learn/hugo/notice/</guid>
       <description>Hugoのコードハイライト 詳細
- {{\% notice warning %}}と {{\% notice %}}で囲むことで、warningをつけることができる（\は不要） 使える属性は以下のもの  note info tip warning    </description>
+ {{\% notice warning %}}と {{\% /notice %}}で囲むことで、warningをつけることができる（\は不要） 使える属性は以下のもの  note info tip warning    </description>
+    </item>
+    
+    <item>
+      <title>ABC211</title>
+      <link>/learn/java/abc211/</link>
+      <pubDate>Sat, 24 Jul 2021 06:13:20 +0000</pubDate>
+      
+      <guid>/learn/java/abc211/</guid>
+      <description>2021/7/24 3回目のAtCoder挑戦 一般的なよくある典型を知っておかないと厳しいなぁと実感したところ
+第 1 問: ABC 211 A - Blood Pressure (100 点) 1import java.util.Scanner; 2 3public class Main { 4 5	public static void main(String[] args) { 6	Scanner sc = new Scanner(System.in); 7	double a = Integer.parseInt(sc.next()); 8	double b = Integer.parseInt(sc.next()); 9	sc.close(); 10 11	double c = (a - b) / 3 + b; 12	System.out.printf(&amp;#34;%.10f\n&amp;#34;, c); 13	} 14} 第 2 問: ABC 211 B - Cycle Hit (200 点) ソートしたら完全一致にならなければいけなくなるから解きやすい 1import java.</description>
+    </item>
+    
+    <item>
+      <title>ABC210</title>
+      <link>/learn/java/abc210/</link>
+      <pubDate>Sun, 18 Jul 2021 06:13:20 +0000</pubDate>
+      
+      <guid>/learn/java/abc210/</guid>
+      <description>2021/7/17 2回目のAtCoder挑戦（前回はお試しだったので実質初めて）
+A,B問題はすぐに正答できた。
+C問題がTLEになってしまい、対処法が思いつかず終了。
+第 1 問: ABC 210 A - Cabbages (100 点) 1import java.util.Scanner; 2 3public class Main { 4	public static void main(String[] args) { 5	Scanner sc = new Scanner(System.in); 6	int n = sc.nextInt(); 7	int a = sc.nextInt(); 8	int x = sc.nextInt(); 9	int y = sc.nextInt(); 10 11	int price = 0; 12	for (int i = 0; i &amp;lt; n; i++) { 13	if (i &amp;lt; a) { 14	price += x; 15	} else { 16	price += y; 17	} 18	} 19 20	System.</description>
     </item>
     
     <item>

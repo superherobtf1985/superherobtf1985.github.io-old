@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ABC211 on はじめてブログ</title>
+    <link>/tags/abc211/</link>
+    <description>Recent content in ABC211 on はじめてブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 24 Jul 2021 06:13:20 +0000</lastBuildDate><atom:link href="/tags/abc211/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ABC211</title>
+      <link>/learn/java/abc211/</link>
+      <pubDate>Sat, 24 Jul 2021 06:13:20 +0000</pubDate>
+      
+      <guid>/learn/java/abc211/</guid>
+      <description>2021/7/24 3回目のAtCoder挑戦 一般的なよくある典型を知っておかないと厳しいなぁと実感したところ
+第 1 問: ABC 211 A - Blood Pressure (100 点) 1import java.util.Scanner; 2 3public class Main { 4 5	public static void main(String[] args) { 6	Scanner sc = new Scanner(System.in); 7	double a = Integer.parseInt(sc.next()); 8	double b = Integer.parseInt(sc.next()); 9	sc.close(); 10 11	double c = (a - b) / 3 + b; 12	System.out.printf(&amp;#34;%.10f\n&amp;#34;, c); 13	} 14} 第 2 問: ABC 211 B - Cycle Hit (200 点) ソートしたら完全一致にならなければいけなくなるから解きやすい 1import java.</description>
+    </item>
+    
+  </channel>
+</rss>

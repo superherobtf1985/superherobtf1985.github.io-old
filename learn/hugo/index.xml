@@ -49,7 +49,7 @@ hugoコマンドの利用 srcフォルダが作成されているので移動し
       
       <guid>/learn/hugo/notice/</guid>
       <description>Hugoのコードハイライト 詳細
- {{\% notice warning %}}と {{\% notice %}}で囲むことで、warningをつけることができる（\は不要） 使える属性は以下のもの  note info tip warning    </description>
+ {{\% notice warning %}}と {{\% /notice %}}で囲むことで、warningをつけることができる（\は不要） 使える属性は以下のもの  note info tip warning    </description>
     </item>
     
   </channel>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ABC210 on はじめてブログ</title>
+    <link>/tags/abc210/</link>
+    <description>Recent content in ABC210 on はじめてブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 18 Jul 2021 06:13:20 +0000</lastBuildDate><atom:link href="/tags/abc210/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ABC210</title>
+      <link>/learn/java/abc210/</link>
+      <pubDate>Sun, 18 Jul 2021 06:13:20 +0000</pubDate>
+      
+      <guid>/learn/java/abc210/</guid>
+      <description>2021/7/17 2回目のAtCoder挑戦（前回はお試しだったので実質初めて）
+A,B問題はすぐに正答できた。
+C問題がTLEになってしまい、対処法が思いつかず終了。
+第 1 問: ABC 210 A - Cabbages (100 点) 1import java.util.Scanner; 2 3public class Main { 4	public static void main(String[] args) { 5	Scanner sc = new Scanner(System.in); 6	int n = sc.nextInt(); 7	int a = sc.nextInt(); 8	int x = sc.nextInt(); 9	int y = sc.nextInt(); 10 11	int price = 0; 12	for (int i = 0; i &amp;lt; n; i++) { 13	if (i &amp;lt; a) { 14	price += x; 15	} else { 16	price += y; 17	} 18	} 19 20	System.</description>
+    </item>
+    
+  </channel>
+</rss>
