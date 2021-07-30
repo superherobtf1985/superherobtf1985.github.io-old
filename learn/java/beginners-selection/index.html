@@ -12,20 +12,20 @@
     <title>Beginner Selection :: はじめてブログ</title>
 
     
-    <link href="../../../css/nucleus.css?1627178891" rel="stylesheet">
-    <link href="../../../css/fontawesome-all.min.css?1627178891" rel="stylesheet">
-    <link href="../../../css/hybrid.css?1627178891" rel="stylesheet">
-    <link href="../../../css/featherlight.min.css?1627178891" rel="stylesheet">
-    <link href="../../../css/perfect-scrollbar.min.css?1627178891" rel="stylesheet">
-    <link href="../../../css/auto-complete.css?1627178891" rel="stylesheet">
-    <link href="../../../css/atom-one-dark-reasonable.css?1627178891" rel="stylesheet">
-    <link href="../../../css/theme.css?1627178891" rel="stylesheet">
-    <link href="../../../css/tabs.css?1627178891" rel="stylesheet">
-    <link href="../../../css/hugo-theme.css?1627178891" rel="stylesheet">
+    <link href="../../../css/nucleus.css?1627644594" rel="stylesheet">
+    <link href="../../../css/fontawesome-all.min.css?1627644594" rel="stylesheet">
+    <link href="../../../css/hybrid.css?1627644594" rel="stylesheet">
+    <link href="../../../css/featherlight.min.css?1627644594" rel="stylesheet">
+    <link href="../../../css/perfect-scrollbar.min.css?1627644594" rel="stylesheet">
+    <link href="../../../css/auto-complete.css?1627644594" rel="stylesheet">
+    <link href="../../../css/atom-one-dark-reasonable.css?1627644594" rel="stylesheet">
+    <link href="../../../css/theme.css?1627644594" rel="stylesheet">
+    <link href="../../../css/tabs.css?1627644594" rel="stylesheet">
+    <link href="../../../css/hugo-theme.css?1627644594" rel="stylesheet">
     
     
 
-    <script src="../../../js/jquery-3.3.1.min.js?1627178891"></script>
+    <script src="../../../js/jquery-3.3.1.min.js?1627644594"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -953,9 +953,92 @@
 <span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27</span>	<span style="color:#f92672">}</span>
 <span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28</span><span style="color:#f92672">}</span></code></pre></div>
 <h2 id="第-9-問-abc-049-c---daydream-300-点httpsatcoderjpcontestsabc049tasksarc065_a"><a href="https://atcoder.jp/contests/abc049/tasks/arc065_a">第 9 問: ABC 049 C - Daydream (300 点)</a></h2>
-<p>近日アップ</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span style="color:#f92672">import</span> java.util.Scanner<span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Main</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span>		Scanner sc <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner<span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">in</span><span style="color:#f92672">);</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span>		String expected <span style="color:#f92672">=</span> sc<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span><span style="color:#f92672">();</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span>		String<span style="color:#f92672">[]</span> reversedWords <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span>				<span style="color:#e6db74">&#34;maerd&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;remaerd&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;esare&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;resare&#34;</span><span style="color:#f92672">};</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span>		StringBuilder strb <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> StringBuilder<span style="color:#f92672">(</span>expected<span style="color:#f92672">);</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span>		expected <span style="color:#f92672">=</span> strb<span style="color:#f92672">.</span><span style="color:#a6e22e">reverse</span><span style="color:#f92672">().</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">();</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span>		Label01: <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17</span>			<span style="color:#66d9ef">while</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">)</span>  <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18</span>				Boolean canSubStr <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20</span>				<span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span>String reversedWord <span style="color:#f92672">:</span> reversedWords<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22</span>					<span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>expected<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">()</span> <span style="color:#f92672">&lt;</span> reversedWord<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23</span>						<span style="color:#66d9ef">continue</span><span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24</span>					<span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25</span>						String subStr <span style="color:#f92672">=</span> expected<span style="color:#f92672">.</span><span style="color:#a6e22e">substring</span><span style="color:#f92672">(</span>0<span style="color:#f92672">,</span> reversedWord<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">());</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26</span>						<span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>subStr<span style="color:#f92672">.</span><span style="color:#a6e22e">equals</span><span style="color:#f92672">(</span>reversedWord<span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27</span>							canSubStr <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28</span>							expected <span style="color:#f92672">=</span> expected<span style="color:#f92672">.</span><span style="color:#a6e22e">substring</span><span style="color:#f92672">(</span>reversedWord<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">());</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29</span>							<span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>expected<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">()</span> <span style="color:#f92672">==</span> 0<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30</span>								<span style="color:#66d9ef">break</span> Label01<span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31</span>							<span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32</span>								<span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33</span>							<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34</span>						<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35</span>					<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36</span>				<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38</span>				<span style="color:#66d9ef">if</span> <span style="color:#f92672">(!</span>canSubStr<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39</span>					<span style="color:#66d9ef">break</span> Label01<span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40</span>				<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41</span>			<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42</span>		<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44</span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>expected<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">()</span> <span style="color:#f92672">==</span> 0 <span style="color:#f92672">?</span> <span style="color:#e6db74">&#34;Yes&#34;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;No&#34;</span><span style="color:#f92672">);</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45</span>	<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46</span><span style="color:#f92672">}</span></code></pre></div>
 <h2 id="第-10-問-abc-086-c---traveling-300-点httpsatcoderjpcontestsabc086tasksarc089_a"><a href="https://atcoder.jp/contests/abc086/tasks/arc089_a">第 10 問: ABC 086 C - Traveling (300 点)</a></h2>
-<p>近日アップ</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span style="color:#f92672">import</span> java.util.Scanner<span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Main</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span>	<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span>		Scanner sc <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner<span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">in</span><span style="color:#f92672">);</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span>		<span style="color:#66d9ef">int</span> n <span style="color:#f92672">=</span> Integer<span style="color:#f92672">.</span><span style="color:#a6e22e">parseInt</span><span style="color:#f92672">(</span>sc<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span><span style="color:#f92672">());</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span>		String ans <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Yes&#34;</span><span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span>		<span style="color:#66d9ef">int</span> beforeX <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span>		<span style="color:#66d9ef">int</span> beforeY <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span>		<span style="color:#66d9ef">int</span> beforeT <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span>		<span style="color:#66d9ef">for</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> n<span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span>			<span style="color:#66d9ef">int</span> t <span style="color:#f92672">=</span> Integer<span style="color:#f92672">.</span><span style="color:#a6e22e">parseInt</span><span style="color:#f92672">(</span>sc<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span><span style="color:#f92672">());</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span>			<span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> Integer<span style="color:#f92672">.</span><span style="color:#a6e22e">parseInt</span><span style="color:#f92672">(</span>sc<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span><span style="color:#f92672">());</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span>			<span style="color:#66d9ef">int</span> y <span style="color:#f92672">=</span> Integer<span style="color:#f92672">.</span><span style="color:#a6e22e">parseInt</span><span style="color:#f92672">(</span>sc<span style="color:#f92672">.</span><span style="color:#a6e22e">next</span><span style="color:#f92672">());</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18</span>			<span style="color:#66d9ef">int</span> diffT <span style="color:#f92672">=</span> t <span style="color:#f92672">-</span> beforeT<span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19</span>			<span style="color:#66d9ef">int</span> diffX <span style="color:#f92672">=</span> Math<span style="color:#f92672">.</span><span style="color:#a6e22e">abs</span><span style="color:#f92672">(</span>x <span style="color:#f92672">-</span> beforeX<span style="color:#f92672">);</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20</span>			<span style="color:#66d9ef">int</span> diffY <span style="color:#f92672">=</span> Math<span style="color:#f92672">.</span><span style="color:#a6e22e">abs</span><span style="color:#f92672">(</span>y <span style="color:#f92672">-</span> beforeY<span style="color:#f92672">);</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22</span>			<span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>diffT <span style="color:#f92672">&lt;</span> diffX <span style="color:#f92672">+</span> diffY<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23</span>				ans <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;No&#34;</span><span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24</span>				<span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25</span>			<span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26</span>				<span style="color:#66d9ef">if</span> <span style="color:#f92672">((</span>diffT <span style="color:#f92672">-</span> diffX <span style="color:#f92672">-</span> diffY<span style="color:#f92672">)</span> <span style="color:#f92672">%</span> 2 <span style="color:#f92672">==</span> 1<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27</span>					ans <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;No&#34;</span><span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28</span>					<span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29</span>				<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30</span>			<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32</span>			beforeT <span style="color:#f92672">=</span> t<span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33</span>			beforeX <span style="color:#f92672">=</span> x<span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34</span>			beforeY <span style="color:#f92672">=</span> y<span style="color:#f92672">;</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35</span>		<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37</span>		System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>ans<span style="color:#f92672">);</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38</span>	<span style="color:#f92672">}</span>
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39</span><span style="color:#f92672">}</span></code></pre></div>
 
 
 <footer class="footline">
@@ -1296,19 +1379,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../../js/clipboard.min.js?1627178891"></script>
-    <script src="../../../js/perfect-scrollbar.min.js?1627178891"></script>
-    <script src="../../../js/perfect-scrollbar.jquery.min.js?1627178891"></script>
-    <script src="../../../js/jquery.sticky.js?1627178891"></script>
-    <script src="../../../js/featherlight.min.js?1627178891"></script>
-    <script src="../../../js/highlight.pack.js?1627178891"></script>
+    <script src="../../../js/clipboard.min.js?1627644594"></script>
+    <script src="../../../js/perfect-scrollbar.min.js?1627644594"></script>
+    <script src="../../../js/perfect-scrollbar.jquery.min.js?1627644594"></script>
+    <script src="../../../js/jquery.sticky.js?1627644594"></script>
+    <script src="../../../js/featherlight.min.js?1627644594"></script>
+    <script src="../../../js/highlight.pack.js?1627644594"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../../js/modernizr.custom-3.6.0.js?1627178891"></script>
-    <script src="../../../js/learn.js?1627178891"></script>
-    <script src="../../../js/hugo-learn.js?1627178891"></script>
+    <script src="../../../js/modernizr.custom-3.6.0.js?1627644594"></script>
+    <script src="../../../js/learn.js?1627644594"></script>
+    <script src="../../../js/hugo-learn.js?1627644594"></script>
     
         
-            <script src="../../../mermaid/mermaid.js?1627178891"></script>
+            <script src="../../../mermaid/mermaid.js?1627644594"></script>
         
         <script>
             mermaid.initialize({ startOnLoad: true });
