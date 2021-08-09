@@ -16,6 +16,8 @@
       <description>2021/7/31 4回目のAtCoder挑戦
 初めてC問題がACできた。
 D問題の時間が15分程度しかなく、消化不良になってしまったため、C問題まで早く解くことを次は意識したい。
+あと、今までEclipse使ってJavaを触っていたが、VSCodeに代えた。
+Java in Visual Studio Codeを参考に入れてみたけど、Eclipseとほぼ同等のことが今のところできていて良い感じ。
 第 1 問: ABC 212 A - Alloy (100 点) 1import java.util.Scanner; 2 3public class Main { 4 public static void main(String[] args) { 5 6 Scanner sc = new Scanner(System.in); 7 int a = Integer.parseInt(sc.next()); 8 int b = Integer.parseInt(sc.next()); 9 sc.close(); 10 11 if (a &amp;gt; 0 &amp;amp;&amp;amp; b == 0) { 12 System.out.println(&amp;#34;Gold&amp;#34;); 13 } else if (a == 0 &amp;amp;&amp;amp; b &amp;gt; 0) { 14 System.</description>
     </item>
     

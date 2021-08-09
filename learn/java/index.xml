@@ -6,7 +6,21 @@
     <description>Recent content in 1. Java on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 31 Jul 2021 13:50:58 +0000</lastBuildDate><atom:link href="/learn/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Aug 2021 15:26:09 +0000</lastBuildDate><atom:link href="/learn/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ABC213</title>
+      <link>/learn/java/abc213/</link>
+      <pubDate>Sun, 08 Aug 2021 15:26:09 +0000</pubDate>
+      
+      <guid>/learn/java/abc213/</guid>
+      <description>2021/8/8 5回目のAtCoder挑戦
+前回に続き、今回もCまでAC。
+しかし、またD問題の時間がなくなってしまった&amp;hellip;
+なんとかDまでACしたいなぁ。
+第 1 問: ABC 213 A - Bitwise Exclusive Or (100 点) 1import java.util.Scanner; 2 3public class Main { 4 public static void main(String[] args) { 5 6 Scanner sc = new Scanner(System.in); 7 int a = Integer.parseInt(sc.next()); 8 int b = Integer.parseInt(sc.next()); 9 sc.close(); 10 11 System.out.println(a^b); 12 } 13} 第 2 問: ABC 213 B - Booby Prize (200 点) ビリとブービーだけ気にしていればいいかなと思い、適当にサクッと作った。
+1import java.util.Scanner; 2 3public class Main { 4 public static void main(String[] args) { 5 6 Scanner sc = new Scanner(System.</description>
+    </item>
+    
     <item>
       <title>ABC212</title>
       <link>/learn/java/abc212/</link>
@@ -16,6 +30,8 @@
       <description>2021/7/31 4回目のAtCoder挑戦
 初めてC問題がACできた。
 D問題の時間が15分程度しかなく、消化不良になってしまったため、C問題まで早く解くことを次は意識したい。
+あと、今までEclipse使ってJavaを触っていたが、VSCodeに代えた。
+Java in Visual Studio Codeを参考に入れてみたけど、Eclipseとほぼ同等のことが今のところできていて良い感じ。
 第 1 問: ABC 212 A - Alloy (100 点) 1import java.util.Scanner; 2 3public class Main { 4 public static void main(String[] args) { 5 6 Scanner sc = new Scanner(System.in); 7 int a = Integer.parseInt(sc.next()); 8 int b = Integer.parseInt(sc.next()); 9 sc.close(); 10 11 if (a &amp;gt; 0 &amp;amp;&amp;amp; b == 0) { 12 System.out.println(&amp;#34;Gold&amp;#34;); 13 } else if (a == 0 &amp;amp;&amp;amp; b &amp;gt; 0) { 14 System.</description>
     </item>
     

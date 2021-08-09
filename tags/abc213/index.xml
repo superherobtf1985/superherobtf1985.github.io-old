@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ABC213 on はじめてブログ</title>
+    <link>/tags/abc213/</link>
+    <description>Recent content in ABC213 on はじめてブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 08 Aug 2021 15:26:09 +0000</lastBuildDate><atom:link href="/tags/abc213/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ABC213</title>
+      <link>/learn/java/abc213/</link>
+      <pubDate>Sun, 08 Aug 2021 15:26:09 +0000</pubDate>
+      
+      <guid>/learn/java/abc213/</guid>
+      <description>2021/8/8 5回目のAtCoder挑戦
+前回に続き、今回もCまでAC。
+しかし、またD問題の時間がなくなってしまった&amp;hellip;
+なんとかDまでACしたいなぁ。
+第 1 問: ABC 213 A - Bitwise Exclusive Or (100 点) 1import java.util.Scanner; 2 3public class Main { 4 public static void main(String[] args) { 5 6 Scanner sc = new Scanner(System.in); 7 int a = Integer.parseInt(sc.next()); 8 int b = Integer.parseInt(sc.next()); 9 sc.close(); 10 11 System.out.println(a^b); 12 } 13} 第 2 問: ABC 213 B - Booby Prize (200 点) ビリとブービーだけ気にしていればいいかなと思い、適当にサクッと作った。
+1import java.util.Scanner; 2 3public class Main { 4 public static void main(String[] args) { 5 6 Scanner sc = new Scanner(System.</description>
+    </item>
+    
+  </channel>
+</rss>
