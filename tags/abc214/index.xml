@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ABC214 on はじめてブログ</title>
+    <link>/tags/abc214/</link>
+    <description>Recent content in ABC214 on はじめてブログ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 15 Aug 2021 07:30:19 +0000</lastBuildDate><atom:link href="/tags/abc214/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ABC214</title>
+      <link>/learn/java/abc214/</link>
+      <pubDate>Sun, 15 Aug 2021 07:30:19 +0000</pubDate>
+      
+      <guid>/learn/java/abc214/</guid>
+      <description>2021/8/14 6回目のAtCoder挑戦
+腸の炎症により体調を崩してしまい、直前まで微熱もあったが、早くレートをあげたくて頑張って参加した。 10回目終了までに茶色になりたいなぁ。(初回はお試しだったので実質あと5回？)
+第 1 問: ABC 214 A - New Generation ABC (100 点) 1import java.util.Scanner; 2 3public class MainA { 4 public static void main(String[] args) { 5 6 Scanner sc = new Scanner(System.in); 7 int n = Integer.parseInt(sc.next()); 8 sc.close(); 9 10 if (n &amp;lt;= 125) { 11 System.out.println(4); 12 } else if (n &amp;lt;= 211) { 13 System.out.println(6); 14 } else { 15 System.out.println(8); 16 } 17 } 18} 第 2 問: ABC 214 B - How many?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,7 @@
     <description>Recent content on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 08 Aug 2021 15:26:09 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Aug 2021 07:30:19 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1. コードブロック</title>
       <link>/learn/hugo/code-highlight/</link>
@@ -50,6 +50,17 @@ hugoコマンドの利用 srcフォルダが作成されているので移動し
       <guid>/learn/hugo/notice/</guid>
       <description>Hugoのコードハイライト 詳細
  {{\% notice warning %}}と {{\% /notice %}}で囲むことで、warningをつけることができる（\は不要） 使える属性は以下のもの  note info tip warning    </description>
+    </item>
+    
+    <item>
+      <title>ABC214</title>
+      <link>/learn/java/abc214/</link>
+      <pubDate>Sun, 15 Aug 2021 07:30:19 +0000</pubDate>
+      
+      <guid>/learn/java/abc214/</guid>
+      <description>2021/8/14 6回目のAtCoder挑戦
+腸の炎症により体調を崩してしまい、直前まで微熱もあったが、早くレートをあげたくて頑張って参加した。 10回目終了までに茶色になりたいなぁ。(初回はお試しだったので実質あと5回？)
+第 1 問: ABC 214 A - New Generation ABC (100 点) 1import java.util.Scanner; 2 3public class MainA { 4 public static void main(String[] args) { 5 6 Scanner sc = new Scanner(System.in); 7 int n = Integer.parseInt(sc.next()); 8 sc.close(); 9 10 if (n &amp;lt;= 125) { 11 System.out.println(4); 12 } else if (n &amp;lt;= 211) { 13 System.out.println(6); 14 } else { 15 System.out.println(8); 16 } 17 } 18} 第 2 問: ABC 214 B - How many?</description>
     </item>
     
     <item>
