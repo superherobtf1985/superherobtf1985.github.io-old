@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2. 成果物 on はじめてブログ</title>
+    <title>2. 作成物 on はじめてブログ</title>
     <link>/portfolio/</link>
-    <description>Recent content in 2. 成果物 on はじめてブログ</description>
+    <description>Recent content in 2. 作成物 on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 05 Jun 2021 13:24:09 +0000</lastBuildDate><atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Feb 2022 12:09:59 +0000</lastBuildDate><atom:link href="/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1. Data Analytics</title>
+      <title>1. Slidevで自己紹介スライドを作ってみた</title>
+      <link>/portfolio/slidev/</link>
+      <pubDate>Tue, 22 Feb 2022 12:09:59 +0000</pubDate>
+      
+      <guid>/portfolio/slidev/</guid>
+      <description>Slidevとは https://sli.dev/
+SlidevはMarkdown記法でスライド作成ができるツールです。
+これまでにMarpなどを利用したことはありましたが、話題になっていたので、試しに自己紹介スライドを作ってみました。
+スライドのURL https://profile.bellshun.com</description>
+    </item>
+    
+    <item>
+      <title>2. Data Analytics</title>
       <link>/portfolio/data-analytics/</link>
       <pubDate>Sat, 05 Jun 2021 13:24:09 +0000</pubDate>
       
@@ -29,7 +41,7 @@ noteの記事の最後にGIFを載せていますが、アプリの大まかな�
     </item>
     
     <item>
-      <title>2. 勉強でECサイト作ってみた</title>
+      <title>3. 勉強でECサイト作ってみた</title>
       <link>/portfolio/dicite/</link>
       <pubDate>Sat, 05 Jun 2021 13:24:09 +0000</pubDate>
       
