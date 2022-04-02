@@ -6,7 +6,19 @@
     <description>Recent content on はじめてブログ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 22 Feb 2022 12:09:59 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Apr 2022 08:40:42 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Slidevで自己紹介スライドを作ってみた</title>
+      <link>/portfolio/slidev/</link>
+      <pubDate>Tue, 22 Feb 2022 12:09:59 +0000</pubDate>
+      
+      <guid>/portfolio/slidev/</guid>
+      <description>Slidevとは https://sli.dev/
+SlidevはMarkdown記法でスライド作成ができるツールです。
+これまでにMarpなどを利用したことはありましたが、話題になっていたので、試しに自己紹介スライドを作ってみました。
+スライドのURL https://profile.bellshun.com</description>
+    </item>
+    
     <item>
       <title>1. コードブロック</title>
       <link>/learn/hugo/code-highlight/</link>
@@ -53,15 +65,14 @@ hugoコマンドの利用 srcフォルダが作成されているので移動し
     </item>
     
     <item>
-      <title>1. Slidevで自己紹介スライドを作ってみた</title>
-      <link>/portfolio/slidev/</link>
-      <pubDate>Tue, 22 Feb 2022 12:09:59 +0000</pubDate>
+      <title>2. Shiritori</title>
+      <link>/portfolio/shiritori/</link>
+      <pubDate>Sat, 02 Apr 2022 08:40:42 +0000</pubDate>
       
-      <guid>/portfolio/slidev/</guid>
-      <description>Slidevとは https://sli.dev/
-SlidevはMarkdown記法でスライド作成ができるツールです。
-これまでにMarpなどを利用したことはありましたが、話題になっていたので、試しに自己紹介スライドを作ってみました。
-スライドのURL https://profile.bellshun.com</description>
+      <guid>/portfolio/shiritori/</guid>
+      <description>しりとりWebアプリ 構成図や目指す機能について スライドを作成しています。
+成果物 しりとりWebアプリ
+※ 現在作成中です。herokuの無料枠の為、接続が不安定なことがあります。</description>
     </item>
     
     <item>
@@ -138,7 +149,7 @@ C問題がTLEになってしまい、対処法が思いつかず終了。
     </item>
     
     <item>
-      <title>2. Data Analytics</title>
+      <title>3. Data Analytics</title>
       <link>/portfolio/data-analytics/</link>
       <pubDate>Sat, 05 Jun 2021 13:24:09 +0000</pubDate>
       
@@ -159,7 +170,7 @@ noteの記事の最後にGIFを載せていますが、アプリの大まかな�
     </item>
     
     <item>
-      <title>3. 勉強でECサイト作ってみた</title>
+      <title>4. 勉強でECサイト作ってみた</title>
       <link>/portfolio/dicite/</link>
       <pubDate>Sat, 05 Jun 2021 13:24:09 +0000</pubDate>
       
@@ -206,7 +217,7 @@ GitHub
       <pubDate>Sun, 02 May 2021 06:53:03 +0000</pubDate>
       
       <guid>/profile/about-me/</guid>
-      <description>自己紹介  shunT SIer勤務 東京の某国立大学の情報学部を卒業 趣味は野球観戦（読売ジャイアンツファン） 最近ワインのおいしさに気づく  自己紹介スライド作りました 経験  ベンチャー企業で少しだけインターンシップしてPHPとか書いたり 某プログラミングスクールのメンターしたり アジャイル開発したり Java開発したり WordPressでサイト運営したり  資格  基本情報技術者 応用情報技術者 AWS Certified Solutions Architect - Associate AWS Certified Developer - Associate 資格も今後もう少し積極的に受けたいですね。。  </description>
+      <description>自己紹介  shunT SIer勤務 東京の某国立大学の情報学部を卒業 趣味は野球観戦（読売ジャイアンツファン） 最近ワインのおいしさに気づく  自己紹介スライド作りました 経験  ベンチャー企業で少しだけインターンシップしてPHPとか書いたり 某プログラミングスクールのメンターしたり アジャイル開発したり Java開発したり WordPressでサイト運営したり  資格  基本情報技術者 応用情報技術者 AWS Certified Solutions Architect - Associate AWS Certified Developer - Associate LSM認定スクラムマスター  資格は今後もどんどんとっていきたいです</description>
     </item>
     
   </channel>
